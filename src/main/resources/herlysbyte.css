@@ -1,0 +1,24 @@
+/* HerlysByte dark, restrained desktop theme */
+.tab-pane { -fx-tab-min-height: 36px; -fx-tab-max-height: 36px; -fx-background-color: #1a1d24; }
+.tab-pane .tab-header-area { -fx-padding: 8px 10px 0 10px; }
+.tab-pane .tab-header-background { -fx-background-color: #1a1d24; -fx-border-color: transparent transparent #2a2e38 transparent; }
+.tab-pane .tab { -fx-background-color: transparent; -fx-background-radius: 6px 6px 0 0; -fx-padding: 0 14px; }
+.tab-pane .tab .tab-label { -fx-text-fill: #9aa1ac; -fx-font-size: 12px; }
+.tab-pane .tab:selected { -fx-background-color: #22252d; -fx-border-color: transparent transparent #b89cff transparent; -fx-border-width: 0 0 2 0; }
+.tab-pane .tab:selected .tab-label { -fx-text-fill: #e6e8ed; -fx-font-weight: bold; }
+.tab-pane > .tab-content-area { -fx-background-color: #1a1d24; -fx-padding: 0; }
+.list-view { -fx-background-color: #15171d; -fx-border-color: transparent; -fx-padding: 4px; }
+.list-view .list-cell { -fx-background-color: transparent; -fx-text-fill: #c9cdd5; -fx-font-size: 12px; -fx-padding: 10px 12px; }
+.list-view .list-cell:filled:hover { -fx-background-color: #20232b; -fx-background-radius: 6px; }
+.list-view .list-cell:filled:selected { -fx-background-color: #292434; -fx-text-fill: #d7c5ff; -fx-background-radius: 6px; }
+.tree-view { -fx-background-color: #15171d; -fx-border-color: transparent; -fx-padding: 6px; }
+.tree-cell { -fx-background-color: transparent; -fx-text-fill: #c9cdd5; -fx-font-size: 12px; -fx-padding: 4px 6px; }
+.tree-cell:filled:hover { -fx-background-color: #20232b; -fx-background-radius: 6px; }
+.tree-cell:filled:selected { -fx-background-color: #292434; -fx-background-radius: 6px; }
+.tree-cell .tree-disclosure-node .arrow { -fx-background-color: #9aa1ac; }
+.window-control { -fx-cursor: hand; }
+.text-area { -fx-background-color: #1a1d24; -fx-border-color: transparent; -fx-background-radius: 0; -fx-padding: 12px; }
+.text-area .content { -fx-background-color: #1a1d24; }
+.scroll-bar:vertical, .scroll-bar:horizontal { -fx-background-color: transparent; }
+.scroll-bar .thumb { -fx-background-color: #3c414c; -fx-background-radius: 5px; }
+.scroll-bar .track { -fx-background-color: transparent; }
